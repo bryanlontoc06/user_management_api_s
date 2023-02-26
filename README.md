@@ -15,7 +15,14 @@ cd user_management_api_s
 ```
 
 3. Create a .env file on the root folder, then add the following:
-#### note: For MySQL Database, you will only need to create a database, and it will automatically create a table for you.
+```bash
+MYSQL_HOST='localhost' // your localhost
+MYSQL_USER='root' //  your username
+MYSQL_PASSWORD='password'  // your database password
+MYSQL_DB='user_api'  // your Database name
+MYSQL_DIALECT='mysql' // 'mysql'
+```
+#### note: For databases, you will only need to create a database, and it will automatically create a table for you.
 eg:
 
 ![image](https://user-images.githubusercontent.com/85468571/221435482-01c90df9-9366-4b7b-858f-604dfa974c4f.png)
