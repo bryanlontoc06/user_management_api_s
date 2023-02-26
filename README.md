@@ -39,6 +39,11 @@ or
 node server.js
 ```
 
+After running the server, you can test the api here:
+```bash
+http://localhost:8080/api-docs/
+```
+
 API Endpoints:
 
 Postman:
