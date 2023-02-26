@@ -19,6 +19,8 @@
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
     "mysql2": "^3.1.2",
-    "sequelize": "^6.29.0"
+    "sequelize": "^6.29.0",
+    "swagger-jsdoc": "^6.0.0",
+    "swagger-ui-express": "^4.6.1"
   }
 }
